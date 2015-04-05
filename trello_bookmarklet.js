@@ -43,6 +43,12 @@
       // We're looking at a GitHub commit
       name = $(".js-current-repository").text().trim() + ": " + $(".commit .commit-title").text().trim();
       
+    } else if ($("#block-project-issue-issue-metadata").length) {
+
+      // We're looking at a Drupal.org issue
+      name = "[" + $(".field-name-field-project .field-item").text().trim() + "] " + $("#page-subtitle").text().trim();
+      desc = "Issue: " + location.href;
+
     } else if (jQuery('head meta[content=Redmine]').length) {
       
       // We're looking at a redmine issue
