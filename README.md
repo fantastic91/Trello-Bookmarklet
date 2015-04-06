@@ -1,5 +1,5 @@
 ```javascript
-javascript:(function(a){window.trelloAppKey="optional";window.trelloIdList="optional";var b=a.createElement("script");b.src="https://cdn.rawgit.com/fantastic91/Trello-Bookmarklet/master/trello_bookmarklet.js";a.getElementsByTagName("head")[0].appendChild(b)})(document);
+javascript:(function(a){window.trelloAppKey="optional";window.trelloIdList="optional";var b=a.createElement("script");b.src="https://raw.github.com/danlec/Trello-Bookmarklet/master/trello_bookmarklet.js";a.getElementsByTagName("head")[0].appendChild(b)})(document);
 ```
 
 This is a <a href="http://en.wikipedia.org/wiki/Bookmarklet">bookmarklet</a> you can use to create a card in <a href="https://trello.com">Trello</a> from ...
@@ -22,7 +22,7 @@ issues/cases/whatever directly to Trello in a single click.
 
 The card created in Trello will 
 
-- attempt to use the name of the FogBugz/JIRA/GitHub/etc case
+- attempt to use the name of the FogBugz/JIRA/GitHub/Drupal/etc case
 - include a link to the case in the card description
 - (optionally) include any selected text in the description
 
