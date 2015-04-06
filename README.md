@@ -32,3 +32,4 @@ and prepending `javascript:` to the front.
 
 If you'd rather not add your appKey and idList for every new domain, you can modify the bookmarklet and include values for `window.trelloAppKey` and `window.trelloIdList` (currently both have the value `"optional"`)
 
+**Note:** This basic concept originated with https://github.com/markdrago/cardorizer; this approach doesn't require you to run a server
